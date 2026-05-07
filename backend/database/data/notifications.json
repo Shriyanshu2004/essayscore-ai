@@ -14,5 +14,21 @@
     "improvement": "nice",
     "created_at": "2026-05-07T14:25:58.607252",
     "read": true
+  },
+  {
+    "id": "notif-fd6fc3d7",
+    "student_id": "stu-001",
+    "type": "peer_review",
+    "title": "New Peer Review Received",
+    "message": "zxcxc reviewed your essay",
+    "reviewer_name": "zxcxc",
+    "reviewer_id": "stu-f4f4e629",
+    "submission_id": "sub-001",
+    "overall_score": 73.3,
+    "comments": "sdccscd",
+    "strength": "dcdz",
+    "improvement": "sdcsdcsdcdc",
+    "created_at": "2026-05-07T16:01:46.136858",
+    "read": true
   }
 ]

@@ -1,5 +1,5 @@
-/* Shared API helper - Uses Vercel KV for real persistent data */
-const BASE = '/api'
+/* Shared API helper */
+const BASE = import.meta.env.VITE_API_URL || 'http://localhost:8000/api'
 
 export async function apiFetch(path, options = {}) {
   try {
@@ -13,7 +13,7 @@ export async function apiFetch(path, options = {}) {
     }
     return await res.json()
   } catch (e) {
-    console.error('API error:', e.message)
+    console.warn('API error:', e.message)
     return null
   }
 }

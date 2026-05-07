@@ -15,5 +15,22 @@
     "comments": "cxz c",
     "strength": "nice",
     "improvement": "nice"
+  },
+  {
+    "id": "pr-2844f499",
+    "submission_id": "sub-001",
+    "reviewer_student_id": "stu-f4f4e629",
+    "assigned_at": "2026-05-07T16:01:46.108123",
+    "completed_at": "2026-05-07T16:01:46.134601",
+    "status": "completed",
+    "scores": {
+      "grammar": 60.0,
+      "structure": 60.0,
+      "content": 100.0,
+      "overall": 73.3
+    },
+    "comments": "sdccscd",
+    "strength": "dcdz",
+    "improvement": "sdcsdcsdcdc"
   }
 ]

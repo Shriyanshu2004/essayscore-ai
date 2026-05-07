@@ -38,7 +38,7 @@ const TRAIT_COLORS = {
 export default function FeedbackViewer() {
   const [activeTab, setActiveTab] = useState('overview')
   const [activeTrait, setActiveTrait] = useState(null)
-  const [submissionId, setSubmissionId] = useState('sub-001')
+  const [submissionId, setSubmissionId] = useState('')
   const [submissions, setSubmissions] = useState([])
   const [essayContent, setEssayContent] = useState('')
   const [data, setData] = useState(null)
@@ -60,7 +60,7 @@ export default function FeedbackViewer() {
     const res = await api.get('/essays')
     if (res && Array.isArray(res)) {
       setSubmissions(res)
-      if (res.length > 0 && !submissionId) {
+      if (res.length > 0) {
         setSubmissionId(res[0].id)
       }
     }
@@ -115,6 +115,7 @@ export default function FeedbackViewer() {
       <div className="page-wrapper fade-in">
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 24 }}>
           <select id="submission-select" className="select" style={{ maxWidth: 300 }} value={submissionId} onChange={e => setSubmissionId(e.target.value)}>
+            {submissions.length === 0 && <option value="">No submissions yet</option>}
             {submissions.map(sub => (
               <option key={sub.id} value={sub.id}>
                 {sub.student_name} — {sub.assignment_title}

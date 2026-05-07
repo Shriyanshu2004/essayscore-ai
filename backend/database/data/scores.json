@@ -548,5 +548,60 @@
     "weight": 0.7,
     "scored_by": "automated",
     "scored_at": "2026-05-07T14:25:29.857375"
+  },
+  {
+    "id": "score-sub-001-grammar",
+    "submission_id": "sub-001",
+    "trait_id": "trait-001",
+    "trait_name": "Grammar",
+    "raw_score": 25.0,
+    "max_score": 25.0,
+    "weight": 1.0,
+    "scored_by": "automated",
+    "scored_at": "2026-05-07T16:02:07.516602"
+  },
+  {
+    "id": "score-sub-001-coherence",
+    "submission_id": "sub-001",
+    "trait_id": "trait-002",
+    "trait_name": "Coherence",
+    "raw_score": 21.2,
+    "max_score": 25.0,
+    "weight": 1.2,
+    "scored_by": "automated",
+    "scored_at": "2026-05-07T16:02:07.518203"
+  },
+  {
+    "id": "score-sub-001-vocabulary",
+    "submission_id": "sub-001",
+    "trait_id": "trait-003",
+    "trait_name": "Vocabulary",
+    "raw_score": 25.0,
+    "max_score": 25.0,
+    "weight": 0.8,
+    "scored_by": "automated",
+    "scored_at": "2026-05-07T16:02:07.520012"
+  },
+  {
+    "id": "score-sub-001-argument_strength",
+    "submission_id": "sub-001",
+    "trait_id": "trait-004",
+    "trait_name": "Argument Strength",
+    "raw_score": 25.0,
+    "max_score": 25.0,
+    "weight": 1.5,
+    "scored_by": "automated",
+    "scored_at": "2026-05-07T16:02:07.521724"
+  },
+  {
+    "id": "score-sub-001-style",
+    "submission_id": "sub-001",
+    "trait_id": "trait-005",
+    "trait_name": "Style",
+    "raw_score": 18.8,
+    "max_score": 25.0,
+    "weight": 0.7,
+    "scored_by": "automated",
+    "scored_at": "2026-05-07T16:02:07.523318"
   }
 ]
