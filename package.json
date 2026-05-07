@@ -1,0 +1,13 @@
+{
+  "name": "dbms-project",
+  "version": "1.0.0",
+  "description": "Root project to run frontend and backend together",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && ..\\venv\\Scripts\\python.exe -m uvicorn main:app --reload --port 8000"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

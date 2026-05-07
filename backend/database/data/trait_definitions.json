@@ -1,0 +1,37 @@
+[
+  {
+    "id": "trait-001",
+    "name": "Grammar",
+    "description": "Grammar, spelling, and mechanics",
+    "weight": 0.2,
+    "max_score": 25
+  },
+  {
+    "id": "trait-002",
+    "name": "Coherence",
+    "description": "Organization and logical flow",
+    "weight": 0.24,
+    "max_score": 25
+  },
+  {
+    "id": "trait-003",
+    "name": "Vocabulary",
+    "description": "Word choice and variety",
+    "weight": 0.16,
+    "max_score": 25
+  },
+  {
+    "id": "trait-004",
+    "name": "Argument Strength",
+    "description": "Thesis and supporting evidence",
+    "weight": 0.3,
+    "max_score": 25
+  },
+  {
+    "id": "trait-005",
+    "name": "Style",
+    "description": "Writing style and voice",
+    "weight": 0.14,
+    "max_score": 25
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "notif-b383f7e9",
+    "student_id": "stu-002",
+    "type": "peer_review",
+    "title": "New Peer Review Received",
+    "message": "Alice Johnson reviewed your essay",
+    "reviewer_name": "Alice Johnson",
+    "reviewer_id": "stu-001",
+    "submission_id": "sub-002",
+    "overall_score": 86.7,
+    "comments": "cxz c",
+    "strength": "nice",
+    "improvement": "nice",
+    "created_at": "2026-05-07T14:25:58.607252",
+    "read": true
+  }
+]

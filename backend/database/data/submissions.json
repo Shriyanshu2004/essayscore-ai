@@ -1,0 +1,56 @@
+[
+  {
+    "id": "sub-001",
+    "student_id": "stu-001",
+    "assignment_id": "asgn-001",
+    "submitted_at": "2025-12-01T10:30:00",
+    "word_count": 650,
+    "status": "scored",
+    "version": 1
+  },
+  {
+    "id": "sub-002",
+    "student_id": "stu-002",
+    "assignment_id": "asgn-001",
+    "submitted_at": "2025-12-01T14:20:00",
+    "word_count": 720,
+    "status": "scored",
+    "version": 1
+  },
+  {
+    "id": "sub-003",
+    "student_id": "stu-003",
+    "assignment_id": "asgn-001",
+    "submitted_at": "2025-12-02T09:15:00",
+    "word_count": 580,
+    "status": "scored",
+    "version": 1
+  },
+  {
+    "id": "sub-new-bbfd94f0",
+    "student_id": "stu-001",
+    "assignment_id": "asgn-001",
+    "submitted_at": "2026-05-07T13:33:05.884619",
+    "word_count": 60,
+    "status": "scored",
+    "version": 1
+  },
+  {
+    "id": "sub-new-94786985",
+    "student_id": "stu-748e8939",
+    "assignment_id": "asgn-001",
+    "submitted_at": "2026-05-07T13:33:37.829606",
+    "word_count": 60,
+    "status": "scored",
+    "version": 1
+  },
+  {
+    "id": "sub-new-da5d96bf",
+    "student_id": "stu-003",
+    "assignment_id": "asgn-001",
+    "submitted_at": "2026-05-07T13:48:02.013575",
+    "word_count": 60,
+    "status": "scored",
+    "version": 1
+  }
+]

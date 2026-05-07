@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pr-cff8edfa",
+    "submission_id": "sub-002",
+    "reviewer_student_id": "stu-001",
+    "assigned_at": "2026-05-07T14:25:58.594258",
+    "completed_at": "2026-05-07T14:25:58.606019",
+    "status": "completed",
+    "scores": {
+      "grammar": 100.0,
+      "structure": 100.0,
+      "content": 60.0,
+      "overall": 86.7
+    },
+    "comments": "cxz c",
+    "strength": "nice",
+    "improvement": "nice"
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "asgn-001",
+    "title": "Social Media Impact Essay",
+    "description": "Analyze the impact of social media on teenage mental health",
+    "due_date": "2025-12-15",
+    "word_limit": 800,
+    "rubric_id": "rubric-001",
+    "created_at": "2025-11-01T00:00:00"
+  },
+  {
+    "id": "asgn-002",
+    "title": "Climate Change Argument",
+    "description": "Write a persuasive essay on climate change solutions",
+    "due_date": "2025-12-20",
+    "word_limit": 1000,
+    "rubric_id": "rubric-001",
+    "created_at": "2025-11-05T00:00:00"
+  },
+  {
+    "id": "asgn-003",
+    "title": "Technology in Education",
+    "description": "Discuss the role of technology in modern education",
+    "due_date": "2025-12-25",
+    "word_limit": 750,
+    "rubric_id": "rubric-001",
+    "created_at": "2025-11-10T00:00:00"
+  }
+]

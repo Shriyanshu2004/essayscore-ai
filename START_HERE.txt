@@ -1,0 +1,189 @@
+╔══════════════════════════════════════════════════════════════════════╗
+║                                                                      ║
+║              🎓 EssayScore AI - Peer Review System                  ║
+║                                                                      ║
+║                    ✅ READY TO USE - START HERE                     ║
+║                                                                      ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+
+📋 QUICK START (Choose One):
+═══════════════════════════════════════════════════════════════════════
+
+Option 1: AUTOMATIC (Recommended)
+──────────────────────────────────
+   Double-click: START_EVERYTHING.bat
+   
+   ✓ Starts backend automatically
+   ✓ Starts frontend automatically  
+   ✓ Opens browser automatically
+   ✓ Everything just works!
+
+
+Option 2: MANUAL
+────────────────
+   Terminal 1 (Backend):
+   > cd backend
+   > python main.py
+   
+   Terminal 2 (Frontend):
+   > cd frontend
+   > npm run dev
+   
+   Browser:
+   > http://localhost:5173
+
+
+═══════════════════════════════════════════════════════════════════════
+🎯 WHAT TO DO NEXT:
+═══════════════════════════════════════════════════════════════════════
+
+1. START SYSTEM
+   └─ Run START_EVERYTHING.bat
+
+2. OPEN BROWSER
+   └─ Go to http://localhost:5173
+
+3. ENROLL OR LOGIN
+   └─ Click "Enroll Now" for new account
+   └─ Or use: alice@school.edu (any password)
+
+4. SUBMIT ESSAY
+   └─ Click "✍️ Essay Submission"
+   └─ Select assignment
+   └─ Write or paste essay
+   └─ Click "Submit Essay"
+
+5. BROWSE ESSAYS
+   └─ Click "📚 Browse Essays"
+   └─ See all submitted essays
+   └─ Filter by "Available to Review"
+
+6. REVIEW AN ESSAY
+   └─ Click "👥 Review This Essay"
+   └─ Rate on 3 criteria (1-5)
+   └─ Write comments
+   └─ Click "Submit Review"
+
+7. CHECK NOTIFICATIONS
+   └─ Login as essay author
+   └─ Click "🔔 Notifications"
+   └─ See peer review feedback!
+
+
+═══════════════════════════════════════════════════════════════════════
+✅ WHAT'S WORKING:
+═══════════════════════════════════════════════════════════════════════
+
+✓ Student enrollment with validation
+✓ Login system (demo mode)
+✓ Essay submission with auto-scoring
+✓ Browse all essays
+✓ Filter essays (All/Available/Mine)
+✓ Review other students' essays
+✓ Structured feedback form
+✓ Real-time notifications
+✓ Notification badge counter
+✓ View received reviews
+✓ Complete feedback viewer
+✓ Progress tracking
+✓ Analytics dashboard
+
+
+═══════════════════════════════════════════════════════════════════════
+📚 DOCUMENTATION:
+═══════════════════════════════════════════════════════════════════════
+
+⭐ README_FIRST.md          - Start here (overview)
+⭐ LIVE_SYSTEM_READY.md     - Complete guide with tests
+⭐ PEER_REVIEW_GUIDE.md     - How to use peer review
+⭐ TROUBLESHOOTING.md       - Fix common issues
+   SETUP_AND_RUN.md         - Detailed setup
+   SYSTEM_OVERVIEW.md       - Visual diagrams
+   ARCHITECTURE.md          - Technical details
+
+
+═══════════════════════════════════════════════════════════════════════
+🔧 TROUBLESHOOTING:
+═══════════════════════════════════════════════════════════════════════
+
+Problem: Backend won't start
+Solution: Run test_backend.bat to diagnose
+
+Problem: Frontend shows errors
+Solution: cd frontend & npm install
+
+Problem: "Loading submissions..." forever
+Solution: Check backend is running at http://localhost:8000/api/health
+
+Problem: Essays not showing
+Solution: Submit an essay first, then refresh
+
+Problem: Notifications not appearing
+Solution: Submit a peer review, then login as essay author
+
+For more help: Read TROUBLESHOOTING.md
+
+
+═══════════════════════════════════════════════════════════════════════
+🎓 DEMO ACCOUNTS:
+═══════════════════════════════════════════════════════════════════════
+
+Students (use any):
+  • alice@school.edu
+  • bob@school.edu
+  • chloe@school.edu
+  • david@school.edu
+  • emma@school.edu
+
+Teacher:
+  • teacher@school.edu
+
+Password: anything (demo mode)
+
+
+═══════════════════════════════════════════════════════════════════════
+🚀 SYSTEM INFO:
+═══════════════════════════════════════════════════════════════════════
+
+Backend:  http://localhost:8000
+Frontend: http://localhost:5173
+API Docs: http://localhost:8000/api/docs
+
+Tech Stack:
+  • Backend: FastAPI (Python)
+  • Frontend: React + Vite
+  • Storage: JSON files
+  • Status: ✅ LIVE AND WORKING
+
+
+═══════════════════════════════════════════════════════════════════════
+💡 PRO TIPS:
+═══════════════════════════════════════════════════════════════════════
+
+1. Use incognito windows to test as multiple students
+2. Check browser console (F12) if something doesn't work
+3. Backend logs show in terminal - watch for errors
+4. Data files are in: backend/database/data/
+5. Backup data before making changes
+
+
+═══════════════════════════════════════════════════════════════════════
+🎊 YOU'RE ALL SET!
+═══════════════════════════════════════════════════════════════════════
+
+Your peer review system is READY TO USE!
+
+Just run: START_EVERYTHING.bat
+
+Then enjoy your fully functional essay review platform! 🚀
+
+
+═══════════════════════════════════════════════════════════════════════
+
+System: EssayScore AI - NLP Writing Assessment Platform
+Version: 1.0
+Status: ✅ LIVE AND READY
+Date: May 7, 2026
+
+═══════════════════════════════════════════════════════════════════════
