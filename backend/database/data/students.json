@@ -1,0 +1,50 @@
+[
+  {
+    "id": "stu-001",
+    "name": "Alice Johnson",
+    "email": "alice@school.edu",
+    "grade_level": "11",
+    "enrolled_at": "2025-09-01T00:00:00",
+    "status": "active"
+  },
+  {
+    "id": "stu-002",
+    "name": "Bob Martinez",
+    "email": "bob@school.edu",
+    "grade_level": "11",
+    "enrolled_at": "2025-09-01T00:00:00",
+    "status": "active"
+  },
+  {
+    "id": "stu-003",
+    "name": "Chloe Thompson",
+    "email": "chloe@school.edu",
+    "grade_level": "10",
+    "enrolled_at": "2025-09-01T00:00:00",
+    "status": "active"
+  },
+  {
+    "id": "stu-004",
+    "name": "David Chen",
+    "email": "david@school.edu",
+    "grade_level": "12",
+    "enrolled_at": "2025-09-01T00:00:00",
+    "status": "active"
+  },
+  {
+    "id": "stu-005",
+    "name": "Emma Wilson",
+    "email": "emma@school.edu",
+    "grade_level": "10",
+    "enrolled_at": "2025-09-01T00:00:00",
+    "status": "active"
+  },
+  {
+    "id": "stu-f4f4e629",
+    "name": "zxcxc",
+    "email": "shriyanshu058@gmail.com",
+    "grade_level": "10",
+    "enrolled_at": "2026-05-07T15:02:42.743057",
+    "status": "active"
+  }
+]
