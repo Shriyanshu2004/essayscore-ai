@@ -1,13 +1,12 @@
 {
-  "name": "dbms-project",
+  "name": "essayscore-ai",
   "version": "1.0.0",
-  "description": "Root project to run frontend and backend together",
+  "private": true,
   "scripts": {
-    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
-    "dev:frontend": "cd frontend && npm run dev",
-    "dev:backend": "cd backend && ..\\venv\\Scripts\\python.exe -m uvicorn main:app --reload --port 8000"
+    "build": "cd frontend && npm install && npm run build",
+    "dev": "cd frontend && npm run dev"
   },
-  "devDependencies": {
-    "concurrently": "^8.2.2"
+  "dependencies": {
+    "@vercel/kv": "^2.0.0"
   }
 }
