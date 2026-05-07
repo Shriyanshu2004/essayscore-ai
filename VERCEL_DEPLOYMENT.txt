@@ -1,0 +1,194 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                    VERCEL DEPLOYMENT GUIDE                                    ║
+║                    EssayScore AI - Step by Step                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+✅ STEP 1: PUSH TO GITHUB
+═══════════════════════════════════════════════════════════════════════════════
+
+1. Go to GitHub.com and create a new repository:
+   - Click the "+" icon in top right
+   - Select "New repository"
+   - Name: "essayscore-ai" (or any name you want)
+   - Description: "NLP Writing Assessment Platform"
+   - Keep it PUBLIC or PRIVATE (your choice)
+   - DON'T initialize with README (we already have one)
+   - Click "Create repository"
+
+2. Copy the repository URL (it will look like):
+   https://github.com/YOUR_USERNAME/essayscore-ai.git
+
+3. Open Command Prompt in your project folder and run:
+
+   git remote add origin https://github.com/YOUR_USERNAME/essayscore-ai.git
+   git branch -M main
+   git push -u origin main
+
+   (Replace YOUR_USERNAME with your actual GitHub username)
+
+
+✅ STEP 2: DEPLOY TO VERCEL
+═══════════════════════════════════════════════════════════════════════════════
+
+1. Go to: https://vercel.com
+
+2. Click "Add New" → "Project"
+
+3. Import your GitHub repository:
+   - You'll see your "essayscore-ai" repository
+   - Click "Import"
+
+4. Configure Project:
+   - Framework Preset: Vite
+   - Root Directory: frontend
+   - Build Command: npm run build
+   - Output Directory: dist
+   - Install Command: npm install
+
+5. Environment Variables (click "Add"):
+   - Name: VITE_API_URL
+   - Value: https://your-backend-url.com/api
+   (We'll update this later with your backend URL)
+
+6. Click "Deploy"
+
+7. Wait 2-3 minutes for deployment to complete
+
+8. You'll get a URL like: https://essayscore-ai.vercel.app
+
+
+✅ STEP 3: DEPLOY BACKEND (RENDER.COM - FREE)
+═══════════════════════════════════════════════════════════════════════════════
+
+Since Vercel doesn't support Python backends well, deploy backend separately:
+
+1. Go to: https://render.com
+
+2. Sign up with GitHub
+
+3. Click "New" → "Web Service"
+
+4. Connect your GitHub repository
+
+5. Configure:
+   - Name: essayscore-ai-backend
+   - Environment: Python 3
+   - Build Command: pip install -r backend/requirements.txt
+   - Start Command: cd backend && uvicorn main:app --host 0.0.0.0 --port $PORT
+   - Instance Type: Free
+
+6. Add Environment Variables:
+   - ALLOWED_ORIGINS: https://essayscore-ai.vercel.app
+
+7. Click "Create Web Service"
+
+8. Wait for deployment (5-10 minutes)
+
+9. Copy your backend URL: https://essayscore-ai-backend.onrender.com
+
+
+✅ STEP 4: UPDATE FRONTEND WITH BACKEND URL
+═══════════════════════════════════════════════════════════════════════════════
+
+1. Go back to Vercel dashboard
+
+2. Click on your project → Settings → Environment Variables
+
+3. Update VITE_API_URL:
+   - Value: https://essayscore-ai-backend.onrender.com/api
+
+4. Go to Deployments tab
+
+5. Click "Redeploy" on the latest deployment
+
+
+✅ STEP 5: TEST YOUR LIVE APP
+═══════════════════════════════════════════════════════════════════════════════
+
+1. Open your Vercel URL: https://essayscore-ai.vercel.app
+
+2. Test the features:
+   - Enroll a student
+   - Submit an essay
+   - Browse essays
+   - Review an essay
+   - Check notifications
+
+3. If something doesn't work:
+   - Check browser console (F12)
+   - Check Vercel logs
+   - Check Render logs
+
+
+✅ ALTERNATIVE: DEPLOY FRONTEND ONLY (SIMPLER)
+═══════════════════════════════════════════════════════════════════════════════
+
+If you just want to deploy the frontend for now:
+
+1. Follow STEP 1 and STEP 2 above
+
+2. The app will work with mock data (no real backend)
+
+3. Later, you can add a real backend when needed
+
+
+✅ QUICK COMMANDS REFERENCE
+═══════════════════════════════════════════════════════════════════════════════
+
+# Create GitHub repo and push
+git remote add origin https://github.com/YOUR_USERNAME/essayscore-ai.git
+git branch -M main
+git push -u origin main
+
+# Update code and redeploy
+git add .
+git commit -m "Update: description of changes"
+git push
+
+# Vercel will auto-deploy on every push!
+
+
+✅ TROUBLESHOOTING
+═══════════════════════════════════════════════════════════════════════════════
+
+Problem: Build fails on Vercel
+Solution: Check that Root Directory is set to "frontend"
+
+Problem: API calls fail
+Solution: Check VITE_API_URL environment variable
+
+Problem: Backend not responding
+Solution: Check Render logs, backend might be sleeping (free tier)
+
+Problem: CORS errors
+Solution: Update ALLOWED_ORIGINS in backend .env
+
+
+✅ YOUR DEPLOYMENT URLS
+═══════════════════════════════════════════════════════════════════════════════
+
+Frontend: https://essayscore-ai.vercel.app
+Backend:  https://essayscore-ai-backend.onrender.com
+GitHub:   https://github.com/YOUR_USERNAME/essayscore-ai
+
+
+✅ NEXT STEPS
+═══════════════════════════════════════════════════════════════════════════════
+
+1. ✅ Push code to GitHub
+2. ✅ Deploy frontend to Vercel
+3. ✅ Deploy backend to Render (optional)
+4. ✅ Update environment variables
+5. ✅ Test live app
+6. 🎉 Share your app with others!
+
+
+═══════════════════════════════════════════════════════════════════════════════
+
+Need help? Check:
+- Vercel Docs: https://vercel.com/docs
+- Render Docs: https://render.com/docs
+- GitHub Docs: https://docs.github.com
+
+═══════════════════════════════════════════════════════════════════════════════
