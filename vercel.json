@@ -1,18 +1,14 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "frontend/package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "frontend/dist"
-      }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/frontend/$1"
-    }
+  "buildCommand": "cd frontend && npm install && npm run build",
+  "outputDirectory": "frontend/dist",
+  "installCommand": "npm install",
+  "framework": null,
+  "rewrites": [
+    { "source": "/api/students/enroll", "destination": "/api/students/enroll" },
+    { "source": "/api/students/", "destination": "/api/students" },
+    { "source": "/api/assignments/", "destination": "/api/assignments" },
+    { "source": "/api/essays", "destination": "/api/essays" },
+    { "source": "/(.*)", "destination": "/frontend/dist/$1" }
   ]
 }
