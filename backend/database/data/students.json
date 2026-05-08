@@ -46,5 +46,13 @@
     "grade_level": "10",
     "enrolled_at": "2026-05-07T15:02:42.743057",
     "status": "active"
+  },
+  {
+    "id": "stu-8ea31069",
+    "name": "dudunnnnn",
+    "email": "shriyanshudavvis@gmail.com",
+    "grade_level": "10",
+    "enrolled_at": "2026-05-08T20:22:19.121465",
+    "status": "active"
   }
 ]

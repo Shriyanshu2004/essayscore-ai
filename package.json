@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "cd frontend && npm install && npm run build",
-    "dev": "cd frontend && npm run dev"
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\" --names \"BACKEND,FRONTEND\" --prefix-colors \"bgBlue.bold,bgMagenta.bold\" --kill-others",
+    "backend": "cd backend && python main.py",
+    "frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm install && npm run build"
   },
-  "dependencies": {
-    "@vercel/kv": "^2.0.0"
+  "devDependencies": {
+    "concurrently": "^9.1.2"
   }
 }
